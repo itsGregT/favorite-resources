@@ -23,18 +23,19 @@ h2 {
 	display: grid;
 }
 
+.bookmark-category {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(320px, 1fr));
+	grid-template-rows: minmax(320px, 1fr);
+	grid-gap: 20px;
+	margin: 30px 0;
+}
+
 .bookmark {
 	background: #efefef;
 	border-radius: 3px;
 	box-shadow: 0 0 5px #000;
-}
-
-.bookmark-category {
-	display: grid;
-	grid-template-columns: repeat(5, minmax(320px, 1fr));
-	grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
-	grid-gap: 20px;
-	margin: 30px 0;
+	height: 100%;
 }
 
 footer {
