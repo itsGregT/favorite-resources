@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	background: linear-gradient(to bottom right, rgba(81, 45, 168, .85), rgba(33, 150, 243, .85));
+	background: linear-gradient(to bottom right, rgba(224, 64, 251, .9), rgba(33, 150, 243, .9));
 	padding: 15px;
 }
 
@@ -29,6 +29,12 @@ h3 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+h4 {
+	text-align: right;
+	color: #fff;
+	margin: 5px 0;
 }
 
 a {
@@ -57,7 +63,7 @@ a {
 }
 
 a:hover .bookmark {
-	background-color: rgb(33, 150, 243);
+	background-color: #FFC107;
 }
 
 a:hover {
