@@ -64,6 +64,8 @@ a {
 
 a:hover .bookmark {
 	background-color: #FFC107;
+	animation: pop 0.75s ease;
+	transform: scale(1.025);
 }
 
 a:hover {
@@ -79,4 +81,13 @@ footer {
 footer p {
 	margin: 0;
 	padding: 15px;
+}
+
+@keyframes pop {
+	from {
+		transform: scale(1.035);
+	}
+	to {
+		transform: scale(1.025);
+	}
 }
