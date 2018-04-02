@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	background: linear-gradient(to bottom right, rgba(224, 64, 251, .9), rgba(33, 150, 243, .9));
+	background: rgba(0, 0, 0, 0.75);
 	padding: 15px;
 }
 
@@ -46,25 +46,23 @@ a {
 	display: grid;
 	grid-template-columns: repeat(5, minmax(320px, 1fr));
 	grid-template-rows: minmax(320px, 1fr);
-	grid-gap: 20px;
+	grid-gap: 5px;
 	margin: 30px 0;
 	align-content: center;
 	
 }
 
 .bookmark {
-	background: #efefef;
 	position: relative;
 	border-radius: 3px;
 	box-shadow: 0 0 5px #000;
 	text-align: center;
 	height: 100%;
-	transition: all 0.5s ease;
+	transition: all 0.25s ease;
 }
 
 a:hover .bookmark {
 	background-color: #FFC107;
-	animation: pop 0.75s ease;
 	transform: scale(1.025);
 }
 
@@ -83,11 +81,82 @@ footer p {
 	padding: 15px;
 }
 
-@keyframes pop {
-	from {
-		transform: scale(1.035);
-	}
-	to {
-		transform: scale(1.025);
-	}
+#pexels {
+	background: center/cover no-repeat url("./img/pexels.jpg");
+}
+
+#unsplash {
+	background: center/cover no-repeat url("./img/unsplash.jpg");
+}
+
+#awwwards {
+	background: center/cover no-repeat url("./img/awwwards.jpg");
+}
+
+#webdesign-inspiration {
+	background: center/cover no-repeat url("./img/webdesign-inspiration.jpg");
+}
+
+#css-design-awards {
+	background: center/cover no-repeat url("./img/css-design-awards.jpg");
+}
+
+#material-design-palette {
+	background: center/cover no-repeat url("./img/material-design-palette.jpg");
+}
+
+#coolors {
+	background: center/cover no-repeat url("./img/coolors.jpg");
+}
+
+#css-tricks {
+	background: center/cover no-repeat url("./img/css-tricks.jpg");
+}
+
+#codrops {
+	background: center/cover no-repeat url("./img/codrops.jpg");
+}
+
+#shoptalkshow {
+	background: center/cover no-repeat url("./img/shoptalkshow.jpg");
+}
+
+#syntax {
+	background: center/cover no-repeat url("./img/syntax.jpg");
+}
+
+#frontend-happy-hour {
+	background: center/cover no-repeat url("./img/frontend-happy-hour.jpg");
+}
+
+#site-list {
+	background: center/cover no-repeat url("./img/site-list.jpg");
+}
+
+#flaticon {
+	background: center/cover no-repeat url("./img/flaticon.jpg");
+}
+
+#paletton {
+	background: center/cover no-repeat url("./img/paletton.jpg");
+}
+
+#ux-planet {
+	background: center/cover no-repeat url("./img/ux-planet.jpg");
+}
+
+#sass-cheatsheet {
+	background: center/cover no-repeat url("./img/sass-cheatsheet.jpg");
+}
+
+#react-cheatsheet {
+	background: center/cover no-repeat url("./img/react-cheatsheet.jpg");
+}
+
+#devhints {
+	background: center/cover no-repeat url("./img/devhints.jpg");
+}
+
+#briefbox {
+	background: center/cover no-repeat url("./img/briefbox.jpg");
 }
