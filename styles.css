@@ -113,6 +113,10 @@ footer p {
 	background: center/cover no-repeat url("./img/css-tricks.jpg");
 }
 
+#dev-to {
+	background: center/cover no-repeat url("./img/dev-to.jpg");
+}
+
 #codrops {
 	background: center/cover no-repeat url("./img/codrops.jpg");
 }
