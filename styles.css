@@ -44,8 +44,7 @@ a {
 
 .bookmark-category {
 	display: grid;
-	grid-template-columns: repeat(5, 320px);
-	grid-template-rows: 320px;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 	grid-gap: 5px;
 	align-content: center;
 	
@@ -55,8 +54,7 @@ a {
 	position: relative;
 	border-radius: 3px;
 	box-shadow: 0 0 5px #000;
-	text-align: center;
-	height: 100%;
+	height: 320px;
 	transition: all 0.25s ease;
 }
 
